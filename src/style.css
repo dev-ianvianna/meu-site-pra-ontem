@@ -445,6 +445,10 @@ footer {
   width: 100%;
 }
 
+.footer-content div {
+  margin-bottom: 1rem;
+}
+
 .footer-content > div:first-child {
   justify-self: start;
 }
@@ -672,7 +676,7 @@ footer {
 }
 
 .scroll-down-indicator p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -736,9 +740,14 @@ footer {
 
 @media (max-width: 700px) {
   .footer-content {
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 1rem;
+  }
+
+  .footer-content > div:first-child,
+  .footer-content > div:last-child {
+    justify-self: center;
   }
 
   .footer-info {

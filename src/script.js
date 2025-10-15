@@ -65,40 +65,7 @@ document.querySelectorAll(".card").forEach((card) => {
 
 const portfolioData = {
   portfolio1: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
-  },
-  portfolio2: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
-  },
-  portfolio3: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
-  },
-  portfolio4: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
-  },
-  portfolio5: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
-  },
-  portfolio6: {
-    image: "src/img/under-construction.jpg",
-    title: "Em Construção",
-    description:
-      "Ainda não temos um site de um cliente publicado, mas em breve teremos!",
+    image: "src/img/lumina-odontologia-e-estetica.jpg",
   },
 };
 
