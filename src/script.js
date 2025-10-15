@@ -65,7 +65,7 @@ document.querySelectorAll(".card").forEach((card) => {
 
 const portfolioData = {
   portfolio1: {
-    image: "src/img/lumina-odontologia-e-estetica.jpg",
+    image: "img/lumina-odontologia-e-estetica.jpg",
   },
 };
 
