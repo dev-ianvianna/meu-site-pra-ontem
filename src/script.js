@@ -65,12 +65,13 @@ document.querySelectorAll(".card").forEach((card) => {
 
 const portfolioData = {
   portfolio1: {
-    image: "img/lumina-odontologia-e-estetica.jpg",
+    image: "src/img/lumina-odontologia-e-estetica.jpg"
   },
 };
 
 function openModal(portfolioId) {
   const data = portfolioData[portfolioId];
+  console.log(data);
   if (data) {
     document.getElementById("modalImage").src = data.image;
     document.getElementById("portfolioModal").classList.add("active");
